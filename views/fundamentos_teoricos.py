@@ -28,6 +28,15 @@ def page_fundamentos_teoricos():
     st.write("### Modificar o conteúdo abaixo:")
     updated_content = st.text_area("Editar fundamentos teóricos", content, height=300)
 
+    # Upload de imagem
+    uploaded_image = st.file_uploader("Carregar uma imagem", type=["png", "jpg", "jpeg"])
+
+    # Se uma imagem for carregada, mostrar a imagem e adicionar o caminho sugerido no markdown
+    if uploaded_image:
+        st.image(uploaded_image, caption="Imagem carregada", use_column_width=True)
+        image_path = f"![Imagem carregada](uploaded_image)"
+        updated_content += f"\n\n{image_path}"
+    
     # Botão para salvar as alterações
     if st.button("Salvar Alterações"):
         # Salvar o conteúdo atualizado no arquivo .md
