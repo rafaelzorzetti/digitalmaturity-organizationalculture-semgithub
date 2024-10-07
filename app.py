@@ -73,6 +73,7 @@ def main():
         - 821130665: Sérgio Vinícius Matos de Azevedo
         - 82116865: Thais Silva Terruya
         - 821150801: Malcon Felipe Ribeiro
+        - 821132677: Gustavo Nascimento Marianno Mendes
         """)
 
     if st.session_state['logged_in']:
