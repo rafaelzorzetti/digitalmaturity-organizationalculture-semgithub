@@ -3,8 +3,8 @@ import pandas as pd
 import openai
 import os
 
-# Configure a chave de API da OpenAI (certifique-se de já ter configurado sua chave no ambiente)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Acessando a chave armazenada nos secrets do Streamlit
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Função para exibir as barras lado a lado, coladas
 def display_bars(maturity_index):
