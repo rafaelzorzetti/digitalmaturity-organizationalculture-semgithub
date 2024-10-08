@@ -2,3 +2,5 @@ A transformação digital é um dos temais mais debatidos na atualidade, não ap
 Este projeto foca em criar uma metodologia adaptada da Acatech (Universidade Alemã criadora do termo Indústria 4.0) para avaliar o índice de maturidade cultural das organizações para a transformação digital, identificando barreiras e propondo melhorias. A avaliação fornecerá um diagnóstico do estado atual e orientar um planejamento estratégico para a evolução. Teste para Git.
 
 ![Imagem carregada](./transformacaodigital.jpg)
+
+![Imagem carregada](./transformacaodigital.jpg)
